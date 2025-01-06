@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultancy Services</title>
+    <link rel="stylesheet" href="consultancy.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation" class="primary-navigation">
+            <div class="logo">
+                <img src="../images/main logo.png" style="width: 120px; filter: brightness(500%);">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about/about.html">About Us</a></li>
+                <li><a href="/ourleaders/our.html">Our Leaders</a></li>
+                <li><a href="/ourleaders/words/our.html">Foreword</a></li>
+                <li class="has-dropdown">
+                    <li class="has-dropdown">
+                        <a href="#">Research &dtrif;</a>
+                    
+                    
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="/research/research.html">Research</a></li>
+    
+                                <li><a href="/research/publish/publish.html">Publications</a></li>
+                            </ul>
+                    
+                    
+                        </div>
+                    
+                    </li>
+                
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">People &dtrif;</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="/people/principal/principal.html">Principal Investigator</a></li>
+                            <li><a href="/people/student/student.html">Student Interns</a></li>
+                            <li><a href="/people/Research Interns/intern.html">Research Interns</a></li>
+                            <li><a href="/people/Research Scholars/scholars.html">Research Scholars</a></li>
+                            <li><a href="/people/Collab/collab.html">Collaborators</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">Our Startups &dtrif;</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="/Our Startups/alchemiera/alchemiera.html">Alchemiera</a></li>
+                            <li><a href="/Our Startups/Quallatice/quallatice.html">Quallatice</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="/opportunities/opportunities.html">Opportunities</a></li>
+                <li><a href="../Media/media.html">Media</a></li>
+                <li><a href="/news/news.html">News Letters</a></li>
+                <li><a href="/consultancy/consultancy.html">Consultancy Services</a></li>
+                <li><a href="/contact us/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="banner-text">
+            <!-- <img class="bannerlogo" src="/main photo lab.jpg"> -->
+            <h1>Consultancy Services</h1>
+        </div>
+    </section>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="../images/nanocon.png" alt="Wearable Biosensor">
+            <div class="content">
+                <h2>Nanomaterial Development & Characterization</h2>
+                <p>
+                    Expertise in the design, synthesis, and characterization of advanced nanomaterials for diverse applications in healthcare, energy, and electronics.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../images/integ.jpg" alt="Wearable Biosensor">
+            <div class="content">
+                <h2>Wearable Biosensor Design & Integration</h2>
+                <p>
+                    Development and optimization of wearable biosensors for personalized health monitoring solutions.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../images/fuelcell.jpg" alt="Wearable Biosensor">
+            <div class="content">
+                <h2>Fuel Cell Technology Consulting</h2>
+                <p>
+                    Guidance on the design, development, and optimization of fuel cells, focusing on performance and sustainability.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../images/harvest.jpg" alt="Wearable Biosensor">
+            <div class="content">
+                <h2>Energy Harvesting Solutions</h2>
+                <p>
+                    Consultation on integrating triboelectric nanogenerators (TENGs) and other energy harvesting technologies for self-powered devices.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../images/photo.jpg" alt="Wearable Biosensor">
+            <div class="content">
+                <h2>Photodetector Development</h2>
+                <p>
+                    Optimization of photodetectors for applications in optical sensing, imaging, and communication.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../images/sustain.png" alt="Wearable Biosensor">
+            <div class="content">
+                <h2>Sustainable Energy & Clean Technology</h2>
+                <p>
+                    Strategic advice on the integration of clean energy solutions, renewable energy sources, and efficient energy storage.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../images/innovation.jpg" alt="Wearable Biosensor">
+            <div class="content">
+                <h2>Innovation & Technology Transfer</h2>
+                <p>
+                    Support in commercialization and scaling of advanced technologies, from prototype to market-ready solutions.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../images/last.jpg" alt="Wearable Biosensor">
+            <div class="content">
+                <h2>Training & Workshops</h2>
+                <p>
+                    Specialized training programs and workshops on nanotechnology, biosensors, fuel cells, and related fields for corporate teams and professionals.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Indium Laboratory. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+    </script>
+        
+   
+</body>
+
+</html>

@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    position: sticky;
+    top: 0;
+    
+}
+
+.primary-navigation {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #007367;
+    color: #fff;
+    
+}
+
+.nav-links {
+    
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.has-dropdown .sub-menu-1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #007367;
+    padding: 10px;
+    list-style: none;
+}
+
+.has-dropdown:hover .sub-menu-1 {
+    display: block;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    border-radius: 2px;
+}
+
+/* Dropdown Menu */
+.has-dropdown {
+    position: relative;
+}
+
+.sub-menu-1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #007367;
+    border-radius: 5px;
+    z-index: 10;
+    min-width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sub-menu-1 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-menu-1 li {
+    padding: 10px 20px;
+}
+
+.sub-menu-1 li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.sub-menu-1 li a:hover {
+    /* background-color: #a18c18; */
+    /* color: #004d40; */
+    transform: scale(1.15);
+
+
+}
+
+
+/* Show Dropdown on Hover */
+.has-dropdown:hover .sub-menu-1 {
+    display: block;
+}
+.banner {
+    /* background: url('main photo lab.jpg') no-repeat center center/cover; */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.banner-text h1 {
+    font-size: 3em;
+    color: #007367;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background: #007367;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .has-dropdown .sub-menu-1 {
+        position: static;
+        box-shadow: none;
+        border-radius: 0;
+        background: #007367;
+    }
+}
+main{
+    flex: 1;
+}
+
+
+footer {
+    background-color: #007367;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+    width: 100%;
+    
+}
+
+.video-gallery {
+    display: flex;
+    gap: 20px; /* Space between the videos */
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.video {
+    flex: 1;
+    max-width: 500px; /* Limit the video width */
+    aspect-ratio: 16 / 9; /* Maintain the aspect ratio */
+    overflow: hidden;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .video-gallery {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .video {
+        flex: 1 1 100%; /* Videos take 100% of the screen width */
+        max-width: none; /* Remove width limitation for smaller screens */
+        margin: 0 auto; /* Center videos */
+    }
+
+    iframe {
+        width: 100%; /* Ensure iframe fits its container */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background: #007367;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .has-dropdown .sub-menu-1 {
+        position: static;
+        box-shadow: none;
+        border-radius: 0;
+        background: #007367;
+    }
+}
+

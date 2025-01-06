@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForeWords</title>
+    <link rel="stylesheet" href="our.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation" class="primary-navigation">
+            <div class="logo">
+                <img src="../../images/main logo.png" style="width: 120px; filter: brightness(500%);">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about/about.html">About Us</a></li>
+                <li><a href="/ourleaders/our.html">Our Leaders</a></li>
+                <li><a href="our.html">Foreword</a></li>
+                <li class="has-dropdown">
+                    <a href="#">Research &dtrif;</a>
+                
+                
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="/research/research.html">Research</a></li>
+
+                            <li><a href="/research/publish/publish.html">Publications</a></li>
+                        </ul>
+                
+                
+                    </div>
+                
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">People &dtrif;</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="/people/principal/principal.html">Principal Investigator</a></li>
+                            <li><a href="/people/student/student.html">Student Interns</a></li>
+                            <li><a href="/people/Research Interns/intern.html">Research Interns</a></li>
+                            <li><a href="/people/Research Scholars/scholars.html">Research Scholars</a></li>
+                            <li><a href="/people/Collab/collab.html">Collaborators</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">Our Startups &dtrif;</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="/Our Startups/alchemiera/alchemiera.html">Alchemiera</a></li>
+                            <li><a href="/Our Startups/Quallatice/quallatice.html">Quallatice</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="/opportunities/opportunities.html">Opportunities</a></li>
+                <li><a href="../../Media/media.html">Media</a></li>
+                <li><a href="/news/news.html">News Letters</a></li>
+                <li><a href="/consultancy/consultancy.html">Consultancy Services</a></li>
+                <li><a href="/contact us/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="banner-text">
+                <h1>Words From Leaders</h1>
+            </div>
+        </section>
+
+        <section class="profile">
+            <div class="profile-photo">
+                <img src="../../images/provice.jpg" alt="Pro-Vice">
+            </div>
+            <div class="profile-info">
+                <h2>Prof. KNS Acharya</h2>
+                <p class="h5"><strong>Pro-Vice Chancellor, GITAM Deemed to be University, Bengaluru</strong></p>
+                <br>
+                <p class="des">
+                    Welcome to the world of Indium Laboratory!!!, where innovation knows no bounds, and excellence is our guiding principle. It is with great pleasure that I extend my warmest greetings to you as we embark on a journey of discovery and advancement together. At Indium Lab, our dedication to pushing the boundaries of scientific exploration is evident in every facet of our research. From pioneering biosensors for early disease detection to revolutionising hydrogen production with cutting-edge fuel cell technology, our pursuits transcend traditional boundaries to deliver tangible solutions for a brighter, sustainable future. In the realm of semiconductor technology, our commitment to excellence shines through in our relentless pursuit of advancements in photodetectors and memristors. These breakthroughs not only redefine the possibilities of data storage and processing but also pave the way for transformative applications in imaging, sensing, and communication technologies. Driven by a culture of integrity and empathy, our team is fueled by a shared passion for making a positive impact on society. Together, we strive to harness the power of innovation to address the most pressing challenges of our time, from enhancing healthcare to safeguarding the environment. As you explore our website, I invite you to join us on this exciting journey of discovery and innovation. Together, let us shape a future where possibilities are limitless, and progress knows no bounds.
+                </p>
+            </div>
+        </section>
+
+        <section class="profile">
+            <div class="profile-photo">
+                <img src="../../images/aijay mandava.jpg" alt="Pro-Vice">
+            </div>
+            <div class="profile-info">
+                <h2>Dr. Ajay Kumar Mandava</h2>
+                <p class="h5"><strong>Deputy Director Research & Development Cell, GITAM Deemed to be University, Bengaluru </strong></p>
+                <br>
+                <p class="des">
+                    It is both a privilege and an honor to introduce the Indium Laboratory—a beacon of innovation and excellence in interdisciplinary scientific exploration. The lab embodies the confluence of engineering, biology, and analytical sciences to address some of the most pressing challenges of our time.
+                </p>
+
+                <p class="des">
+                    At its core, the Indium Lab focuses on developing cutting-edge biosensing technologies that push the boundaries of precision, sensitivity, and scalability. From healthcare diagnostics to food safety, the lab's endeavors have far-reaching implications for industry and society. The lab’s commitment to fostering innovation, nurturing talent, and advancing scientific knowledge is a testament to its visionary leadership and dedicated team of researchers.
+                </p>
+
+                <p class="des">
+                    It is my firm belief that the Indium Laboratory will continue to be a trailblazer, driving transformative change and contributing significantly to global scientific and technological advancement. I extend my best wishes to Dr. Lignesh B D and his team of exceptional researchers for continued success in the years ahead. 
+                </p>
+
+                <p class="des">
+                    <p class="des">
+                        It is my firm belief that the Biosensor Research Laboratory will continue to be a trailblazer, driving transformative change and contributing significantly to global scientific and technological advancement. I extend my best wishes to Dr. Lignesh Durai and his team of exceptional researchers for continued success in the years ahead.
+                    </p>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Indium Laboratory. All rights reserved.</p>
+    </footer>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+    </script>
+</body>
+</html>

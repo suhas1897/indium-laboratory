@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indium Laboratory</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics.js"></script>
+
+    <!-- Link to your custom JavaScript -->
+    <script type="module" src="js/firebase.js"></script>
+</head>
+<body>
+    <header>
+        <nav role="navigation" class="primary-navigation">
+            <div class="logo">
+                <img src="./images/main logo.png" style="width: 120px; filter: brightness(500%);">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about/about.html">About Us</a></li>
+                <li><a href="/ourleaders/our.html">Our Leaders</a></li>
+                <li><a href="/ourleaders/words/our.html">Foreword</a></li>
+                <li class="has-dropdown">
+                    <a href="#">Research &dtrif;</a>
+                
+                
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="/research/research.html">Research</a></li>
+
+                            <li><a href="/research/publish/publish.html">Publications</a></li>
+                        </ul>
+                
+                
+                    </div>
+                
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">People &dtrif;</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="/people/principal/principal.html">Principal Investigator</a></li>
+                            <li><a href="/people/student/student.html">Student Interns</a></li>
+                            <li><a href="/people/Research Interns/intern.html">Research Interns</a></li>
+                            <li><a href="/people/Research Scholars/scholars.html">Research Scholars</a></li>
+                            <li><a href="/people/Collab/collab.html">Collaborators</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">Our Startups &dtrif;</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="/Our Startups/alchemiera/alchemiera.html">Alchemiera</a></li>
+                            <li><a href="/Our Startups/Quallatice/quallatice.html">Quallatice</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                
+                <li><a href="/opportunities/opportunities.html">Opportunities</a></li>
+                <li><a href="./Media/media.html">Media</a></li>
+                <li><a href="/news/news.html">News Letters</a></li>
+                <li><a href="/consultancy/consultancy.html">Consultancy Services</a></li>
+                
+                <li><a href="/contact us/contact.html">Contact Us</a></li> 
+
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main>
+
+        <section class="banner">
+            <div class="banner-text">
+                <!-- <img class="bannerlogo" src="/main photo lab.jpg"> -->
+                <h1 style="text-align: center; ">Welcome to Indium Laboratory </h1>
+                <h2 style="text-align: center;">Indium Stands for Innovative Nanomaterial Development for Integrated Utility in Health Monitoring and Clean Energy Research</h2>
+            </div>
+            
+        </section>
+
+
+        
+         
+
+        <section class="alert-bar">
+            <p>
+                <strong style="font-weight: bolder;">Indium Lab Recognized Under Aspire Program:</strong> Honored for developing a respiratory disease diagnostic sensor (August 28, 2024).**
+                <strong style="font-weight: bolder;">**Dr. B. Lignesh Durai Secures First Place:</strong> Winner of the Idea Challenge at Aarambh 2024, held on February 16, 2024, at GITAM Venture Development Centre, Bengaluru.**  
+                <strong style="font-weight: bolder;">**Startup Milestone:</strong> Indium Lab registers two startups focused on healthcare innovation and food quality monitoring.** 
+                <strong style="font-weight: bolder;">Aspire Initiative Launched:</strong> Dr. Lignesh Durai unveils Indium Healthcare Technologies Under Aspire on August 28, 2024.  
+                <strong style="font-weight: bolder;">Breakthrough in Alzheimer’s Detection:</strong> Alpha team pioneers a wearable perspiration profiling system for early detection.  
+            </p>
+        </section>
+
+       
+        
+
+        <div class="carousel1"> 
+
+            <section class="carousel-container">  
+                <div class="carousel">
+                    <img src="./images/murthi pic.jpeg" alt="Image 1">
+                    <img src="./images/lab pic.jpg" alt="Image 2">
+                    <img src="./images/renishaw pic.jpeg" alt="Image 3">
+                    <img src="./images/teju.jpg" alt="Image 4">
+                </div>
+                <button class="prev" id="prev">&#10094;</button>
+                <button class="next" id="next">&#10095;</button>
+            </section>
+        </div>
+        
+
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Indium Laboratory. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
